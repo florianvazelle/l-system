@@ -1,0 +1,22 @@
+{
+    "alphabet": ["F", "X"],
+    "constants": ["+", "-", "&", "^", "<", ">", "|", "[", "]"],
+    "axiom": "X",
+    "rules": [
+        {
+            "input": "X",
+            "outputs": [
+                {
+                    "output": "F[++X]F[-X]+X",
+                    "probability": 0.2
+                }, {
+                    "output": "F[+X]F[-X]+X",
+                    "probability": 0.8
+                }
+            ]
+        }, {
+            "input": "F",
+            "output": "FF"
+        }
+    ]
+}

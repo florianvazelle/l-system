@@ -1,0 +1,14 @@
+{
+    "alphabet": ["F", "X"],
+    "constants": ["+", "-", "&", "^", "<", ">", "|", "[", "]"],
+    "axiom": "X",
+    "rules": [
+        {
+            "input": "X",
+            "output": "F+[[X]-X]-F[-FX]+X"
+        }, {
+            "input": "F",
+            "output": "FF"
+        }
+    ]
+}
